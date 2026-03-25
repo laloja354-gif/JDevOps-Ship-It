@@ -8,8 +8,8 @@ jobs:
   artifact-check:
     runs-on: windows-latest
     steps:
-        - name: Checkout
-          uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-        - name: Run artifact check
-          run: windows-latest
+      - name: Run artifact check
+        run: check_artifact.cmd
